@@ -302,7 +302,7 @@ importers:
         version: 4.17.21
       next:
         specifier: 13.4.2
-        version: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+        version: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
       next-axiom:
         specifier: ^0.18.0
         version: 0.18.0(next@13.4.2)
@@ -613,7 +613,7 @@ importers:
     dependencies:
       '@angleprotocol/sdk':
         specifier: ^3.0.121
-        version: 3.0.121(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.0.0)(encoding@0.1.13)(typescript@5.2.2)
+        version: 3.0.121(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2)(encoding@0.1.13)(typescript@5.2.2)
       '@datadog/browser-logs':
         specifier: ^5.1.0
         version: 5.1.0
@@ -760,7 +760,7 @@ importers:
         version: 4.17.21
       next:
         specifier: 13.4.2
-        version: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+        version: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
       next-axiom:
         specifier: ^0.18.0
         version: 0.18.0(next@13.4.2)
@@ -834,8 +834,8 @@ importers:
         specifier: ^2.2.4
         version: 2.2.4(react@18.2.0)
       tiny-invariant:
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: 1.3.0
+        version: 1.3.0
       uuid:
         specifier: ^8.0.0
         version: 8.0.0
@@ -995,7 +995,7 @@ importers:
         version: 18.0.6
       next:
         specifier: 13.4.2
-        version: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+        version: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -1018,8 +1018,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       tiny-invariant:
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: 1.3.0
+        version: 1.3.0
       tiny-warning:
         specifier: ^1.0.3
         version: 1.0.3
@@ -1259,7 +1259,7 @@ importers:
     devDependencies:
       next:
         specifier: 13.4.2
-        version: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+        version: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
 
   packages/pools:
     dependencies:
@@ -1383,8 +1383,8 @@ importers:
         specifier: ^2.2.0
         version: 2.2.0
       tiny-invariant:
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: 1.3.0
+        version: 1.3.0
       viem:
         specifier: ^1.15.1
         version: 1.15.1(typescript@5.2.2)(zod@3.22.3)
@@ -1429,8 +1429,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       tiny-invariant:
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: 1.3.0
+        version: 1.3.0
       tiny-warning:
         specifier: ^1.0.3
         version: 1.0.3
@@ -1457,8 +1457,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       tiny-invariant:
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: 1.3.0
+        version: 1.3.0
       tiny-warning:
         specifier: ^1.0.3
         version: 1.0.3
@@ -1869,8 +1869,8 @@ importers:
         specifier: ^2.5.0
         version: 2.5.0
       tiny-invariant:
-        specifier: ^1.1.0
-        version: 1.1.0
+        specifier: 1.3.0
+        version: 1.3.0
       tiny-warning:
         specifier: ^1.0.3
         version: 1.0.3
@@ -2118,11 +2118,11 @@ packages:
       '@jridgewell/gen-mapping': 0.3.3
       '@jridgewell/trace-mapping': 0.3.20
 
-  /@angleprotocol/sdk@3.0.121(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.0.0)(encoding@0.1.13)(typescript@5.2.2):
+  /@angleprotocol/sdk@3.0.121(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2)(encoding@0.1.13)(typescript@5.2.2):
     resolution: {integrity: sha512-XAhNlFIEbKm2f0nQHF0sTA56OAPlsZD5OtTvD32CnTM0Lk2ezIRjgKJf5imwpZxMRgP/5jKtLZyP+fi8o/Ry0w==}
     requiresBuild: true
     dependencies:
-      '@typechain/ethers-v5': 10.2.1(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.0.0)(ethers@5.7.0)(typechain@8.3.2)(typescript@5.2.2)
+      '@typechain/ethers-v5': 10.2.1(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2)(ethers@5.7.0)(typechain@8.3.2)(typescript@5.2.2)
       '@types/lodash': 4.14.201
       ethers: 5.7.0
       graphql: 15.8.0
@@ -2131,7 +2131,7 @@ packages:
       keccak256: 1.0.6
       lodash: 4.17.21
       merkletreejs: 0.3.11
-      tiny-invariant: 1.1.0
+      tiny-invariant: 1.3.0
       typechain: 8.3.2(typescript@5.2.2)
     transitivePeerDependencies:
       - '@ethersproject/abi'
@@ -8861,7 +8861,7 @@ packages:
       '@sentry/utils': 7.52.1
       '@sentry/webpack-plugin': 1.20.0(encoding@0.1.13)
       chalk: 3.0.0
-      next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       rollup: 2.78.0
       stacktrace-parser: 0.1.10
@@ -10649,7 +10649,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /@typechain/ethers-v5@10.2.1(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.0.0)(ethers@5.7.0)(typechain@8.3.2)(typescript@5.2.2):
+  /@typechain/ethers-v5@10.2.1(@ethersproject/abi@5.7.0)(@ethersproject/providers@5.7.2)(ethers@5.7.0)(typechain@8.3.2)(typescript@5.2.2):
     resolution: {integrity: sha512-n3tQmCZjRE6IU4h6lqUGiQ1j866n5MTCBJreNEHHVWXa2u9GJTaeYyU1/k+1qLutkyw+sS6VAN+AbeiTqsxd/A==}
     peerDependencies:
       '@ethersproject/abi': ^5.0.0
@@ -10659,7 +10659,7 @@ packages:
       typescript: '>=4.3.0'
     dependencies:
       '@ethersproject/abi': 5.7.0
-      '@ethersproject/providers': 5.0.0
+      '@ethersproject/providers': 5.7.2
       ethers: 5.7.0
       lodash: 4.17.21
       ts-essentials: 7.0.3(typescript@5.2.2)
@@ -11808,7 +11808,7 @@ packages:
     dependencies:
       '@vanilla-extract/webpack-plugin': 2.3.1(@types/node@13.13.5)(webpack@5.89.0)
       browserslist: 4.22.1
-      next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -11827,7 +11827,7 @@ packages:
     dependencies:
       '@vanilla-extract/webpack-plugin': 2.3.1(@types/node@18.0.4)(webpack@5.89.0)
       browserslist: 4.22.1
-      next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -18191,7 +18191,7 @@ packages:
       '@babel/runtime': 7.23.2
       loose-envify: 1.4.0
       resolve-pathname: 3.0.0
-      tiny-invariant: 1.1.0
+      tiny-invariant: 1.3.0
       tiny-warning: 1.0.3
       value-equal: 1.0.1
     dev: true
@@ -21437,7 +21437,7 @@ packages:
     peerDependencies:
       next: ^12.1.4 || ^13
     dependencies:
-      next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
       whatwg-fetch: 3.6.19
     dev: false
 
@@ -21448,7 +21448,7 @@ packages:
       react: '>=16.0.0'
       react-dom: '>=16.0.0'
     dependencies:
-      next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
@@ -21460,7 +21460,7 @@ packages:
       react: '*'
       react-dom: '*'
     dependencies:
-      next: 13.4.2(@babel/core@7.20.12)(react-dom@18.2.0)(react@18.2.0)
+      next: 13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
 
@@ -21507,6 +21507,7 @@ packages:
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
+    dev: true
 
   /next@13.4.2(@babel/core@7.23.3)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-aNFqLs3a3nTGvLWlO9SUhCuMUHVPSFQC0+tDNGAsDXqx+WJDFSbvc233gOJ5H19SBc7nw36A9LwQepOJ2u/8Kg==}
@@ -23026,7 +23027,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-router: 5.2.0(react@18.2.0)
-      tiny-invariant: 1.1.0
+      tiny-invariant: 1.3.0
       tiny-warning: 1.0.3
     dev: true
 
@@ -23044,7 +23045,7 @@ packages:
       prop-types: 15.8.1
       react: 18.2.0
       react-is: 16.13.1
-      tiny-invariant: 1.1.0
+      tiny-invariant: 1.3.0
       tiny-warning: 1.0.3
     dev: true
 
@@ -24559,6 +24560,7 @@ packages:
       '@babel/core': 7.20.12
       client-only: 0.0.1
       react: 18.2.0
+    dev: true
 
   /styled-jsx@5.1.1(@babel/core@7.23.3)(react@18.2.0):
     resolution: {integrity: sha512-pW7uC1l4mBZ8ugbiZrcIsiIvVx1UmTfw7UkC3Um2tmfUq9Bhk8IiyEIPl6F8agHgjzku6j0xQEZbfA5uSgSaCw==}
@@ -25095,8 +25097,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /tiny-invariant@1.1.0:
-    resolution: {integrity: sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw==}
+  /tiny-invariant@1.3.0:
+    resolution: {integrity: sha512-ENKs33oJRM5HsIwSsRxu7eXImrgcQiqFXRaU1WzY0bNxWoJjK4AMPnJWVvPbDHIGXMcxBZ5YdrGD8zXqacp75Q==}
 
   /tiny-invariant@1.3.1:
     resolution: {integrity: sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==}
